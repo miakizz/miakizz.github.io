@@ -1,0 +1,60 @@
+<!-- The Footer -->
+<br>
+<footer
+  aria-label="Site Info"
+  class="
+    d-flex flex-column text-muted
+    flex-lg-row align-items-lg-right pb-lg-3 flex-wrap
+  "
+  style="gap: 5px;align-items: center;padding-top: 7px;"
+>
+
+<a href=https://miakizz.quest>
+  <img src="/assets/badges/miakizz.png" alt="Mia"/></a>
+<a href=https://avasilver.dev>
+  <img src="/assets/badges/ava.png" alt="Ava" /></a>
+<a href=https://breq.dev>
+  <img src="/assets/badges/breq.webp" alt="Brooke" /></a>
+<a href=https://philo.gay>
+  <img src="/assets/badges/philo.png" alt="Philo" /></a>
+<a href=https://tris.fyi>
+  <img src="/assets/badges/tris.png" alt="Tris" /></a>
+<a href=https://www.google.com/search?tbm=isch&q=big+fluffy+husky+dog>
+  <img src="/assets/badges/max.png" alt="Maxine" /></a>
+<a href=https://adryd.com>
+  <img src="/assets/badges/adryd.png" alt="Adryd/Ari" /></a>
+<a href=https://www.vhafener.com>
+  <img src="/assets/badges/vivi.png" alt="Vivi" /></a>
+<a href=https://pixilic.com/>
+  <img src="/assets/badges/hunter.png" alt="Hunter" /></a>
+<a href=https://juliaviolet.dev/>
+  <img src="/assets/badges/julia.png" alt="Julia" /></a>
+<a href=https://eightyeightthirty.one>
+  <img src="/assets/badges/eightyeightthirtyone.png" alt="88x31" /></a>
+<p style="margin-left: auto;">
+  {{ '©' }}
+  <time>{{ 'now' | date: '%Y' }}</time>
+  <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+  {% if site.data.locales[include.lang].copyright.brief %}
+  <span data-bs-toggle="tooltip" data-bs-placement="top"
+    title="{{ site.data.locales[include.lang].copyright.verbose }}">
+    {{- site.data.locales[include.lang].copyright.brief -}}
+  </span>
+  {% endif %}
+</p>
+
+<p>
+  {%- capture _platform -%}
+  <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
+  {%- endcapture -%}
+
+  {%- capture _theme -%}
+  <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
+  {%- endcapture -%}
+
+  {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+</p>
+
+  
+</footer>
+<br>
