@@ -6,11 +6,11 @@ image:
   path: assets/hams/thumb.jpg
   alt: Steamed Hams still
 ---
-This one is going to be tough to explain. In 1996, the American TV show "The Simpsons" aired an episode "22 Short Films about Springfield". The title is a reference to _Thirty Two Short Films About Glenn Gould_, and the episode is a loose (_loose_) parody of Pulp Fiction. 20 years later, one of the longer segements which came to be known as "Steamed Hams" became a meme on Youtube. I have a few theories about why this happened, mainly that it's an incredibly short self contained story, that has the over-the-top line delivery and framing of a very short film, but with the narrative authority of a show like The Simpsons. and it's funny. Steamed Hams memes take the source material and modifies it in some drastic ways. Searching "Steamed Hams But" on Youtube will give you an idea.
+This one is going to be tough to explain. In 1996, the American TV show "The Simpsons" aired an episode "22 Short Films about Springfield". The title is a reference to _Thirty Two Short Films About Glenn Gould_, and the episode is a loose (_loose_) parody of Pulp Fiction. 20 years later, one of the longer segments which came to be known as "Steamed Hams" became a meme on Youtube. I have a few theories about why this happened, mainly that it's an incredibly short self contained story, that has the over-the-top line delivery and framing of a very short film, but with the narrative authority of a show like The Simpsons. and it's funny. Steamed Hams memes take the source material and modifies it in some drastic ways. Searching "Steamed Hams But" on Youtube will give you an idea.
 
-The first one I made was inspired by [this video](https://www.youtube.com/watch?v=P0ZfgYvAP3A). I thought it would be neat to recreate it in hardware, as is the instinct of any self-respecting electrical engineer. And since I've always been known as the computer kid, I've collected/been given many computers/devices that can techincally play video. So the plan was to get as many computers I could together and play the clip in some kind of coordinated way. So, here is the breakdown of every device used
+The first one I made was inspired by [this video](https://www.youtube.com/watch?v=P0ZfgYvAP3A). I thought it would be neat to recreate it in hardware, as is the instinct of any self-respecting electrical engineer. And since I've always been known as the computer kid, I've collected/been given many computers/devices that can technically play video. So the plan was to get as many computers I could together and play the clip in some kind of coordinated way. So, here is the breakdown of every device used
 - My Dell XPS 13, which was briefly my daily driver before I got completely sick of it's battery life and Windows sleep problems
-- A Ryzen 3600 desktop which drove 4 monitors: my fancy 32" Samsung, a monitor salvaged from a 2008 Dell, a Gateway display stolen from work while we were moving, and a projector given to me by a friend who was helping the local high school upgrate (thanks Peter!)
+- A Ryzen 3600 desktop which drove 4 monitors: my fancy 32" Samsung, a monitor salvaged from a 2008 Dell, a Gateway display stolen from work while we were moving, and a projector given to me by a friend who was helping the local high school upgrade (thanks Peter!)
 - An iBook G3 also salvaged from the same high school
 - An iMac G4 bought at a storage auction
 - A Raspberry Pi Zero driving a composite TV with BRAIN WASHER written on it which I found under a gazebo in Dover, New Hampshire. I can only presume that it was used in some yet unencountered punk music video
@@ -38,10 +38,10 @@ Instead of keeping track of 12 different video files, the original was placed on
 ![Terminal running each netcat](assets/hams/lightsoff.jpg){: w="350"}
 _Terminal running each netcat_
 
-The playback went well, and I recorded it on my Sony a6300 with room audio. Despite being the dead of winter, at night, in Maine, my room was well over 80 degrees. I tried to open a window, but the plastic creeking of the CRTs dissuaded me from doing so.
+The playback went well, and I recorded it on my Sony a6300 with room audio. Despite being the dead of winter, at night, in Maine, my room was well over 80 degrees. I tried to open a window, but the plastic creaking of the CRTs dissuaded me from doing so.
 {% include embed/youtube.html id='0x6OGMh4i98' %}
 
-My other Steamed Hams project involved a board I layed out from this schematic that converts a composite video signal into an X/Y/Intensity map to display on an analog oscilliscope. My one clever "trick" was using a triple composite video connector instead of 3 BNC connectors, since RCA cables are way cheaper, and obviously work at video frequencies. The ladybugs in the video were a complete accident, and just a result of living in a poorly isolated house during the winter in Maine.
+My other Steamed Hams project involved a board I layed out from this schematic that converts a composite video signal into an X/Y/Intensity map to display on an analog oscilloscope. My one clever "trick" was using a triple composite video connector instead of 3 BNC connectors, since RCA cables are way cheaper, and obviously work at video frequencies. The ladybugs in the video were a complete accident, and just a result of living in a poorly isolated house during the winter in Maine.
 
 ![Composite to X/Y/Intensity converter](assets/hams/compconv.jpg){: w="350"}
 _Composite to X/Y/Intensity converter_

@@ -6,7 +6,7 @@ image:
   path: assets/classact/thumb.webp
   alt: Class Act Logo
 ---
-After a thrilling win at the 2017 Maine App Challange, Team Redundancy Team was ready to return to attempt another victory. The idea we came up with was Class Act, which consisted of the following tools
+After a thrilling win at the 2017 Maine App Challenge, Team Redundancy Team was ready to return to attempt another victory. The idea we came up with was Class Act, which consisted of the following tools
 * Alarm that turns off on snow days and delays when there is a delay
 * Assignment calendar that helps people keep track of all of their assignments from Google Classroom or teacher Web sites
 * Study guides, both from other Web sites and written by ourselves to help students study for hard exams and enrich themselves beyond high school curriculum

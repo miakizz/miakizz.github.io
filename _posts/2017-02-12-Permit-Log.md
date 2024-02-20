@@ -6,11 +6,11 @@ image:
   path: assets/permit/thumb.webp
   alt: Permit Log logo
 ---
-Tyler Technologies in Maine sponsors an annual event called the [Maine App Challange](https://www.tylertech.com/maine-app-challenge). Brian Austin, Noble Mushtak, and I participated in the challanged in 2017 and 2018. Our initial app was called Permit Log, and it was our most successful, winning first place and having over 2000 active users.
+Tyler Technologies in Maine sponsors an annual event called the [Maine App Challange](https://www.tylertech.com/maine-app-challenge). Brian Austin, Noble Mushtak, and I participated in the challenged in 2017 and 2018. Our initial app was called Permit Log, and it was our most successful, winning first place and having over 2000 active users.
 
 ![Google Play Store listing](assets/permit/play.png){: w="350"}
 
-Maine has the stricted teen driving laws in the country, requiring 70 hours of logged driving on a lerner's permit before gaining a license. I have no idea why this is. I constantly forgot to update my paper log, so it typical digital transformation fashion, we made an app. The UI was pretty simple, with just a start/stop button that allowed you to record the properties of the drive, and export it at the end. 
+Maine has the strictest teen driving laws in the country, requiring 70 hours of logged driving on a lerner's permit before gaining a license. I have no idea why this is. I constantly forgot to update my paper log, so it typical digital transformation fashion, we made an app. The UI was pretty simple, with just a start/stop button that allowed you to record the properties of the drive, and export it at the end. 
 
 ![Permit Log homescreen](assets/permit/homescreen.png){: w="350"}
 

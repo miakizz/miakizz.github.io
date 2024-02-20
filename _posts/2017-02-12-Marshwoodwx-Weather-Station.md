@@ -11,17 +11,17 @@ I was president of the Marshwood High School Science Club from 2015 to 2019. Thi
 ![Weather Station mounted on roof](assets/marshwoodwx/roof.jpg){: w="350"}
 _Weather Station mounted on roof_
 
-To enhance the school expirence, the current data from the weather station was displayed on a TV in a well travelled hallway. The interface however...left something to be desired.
+To enhance the school experience, the current data from the weather station was displayed on a TV in a well traveled hallway. The interface however...left something to be desired.
 
 ![Former interface](assets/marshwoodwx/old.webp)
 _Former interface_
 
-So we decided to write our own software. The weather station connects over ISM radio to the base station (looking back, the fact it could get through two floors of a cinderblock building and into a windowless room is impressive), which was connected to the computer over USB serial. The first attempt involved writing our own serial driver, which didn't work out for reasons I can't recall. Then, we found [the WeeWX Project](https://weewx.com/), which "interacts with your weather station to produce graphs, reports, and HTML pages". WeeWX is such a classic feeling early-2000s FOSS project, hulking codebase and all. Crucially, it included support for our receiver. WeeWX comes with many display skins, however none seemed well suited for our billboard application, so I wrote a custom one. I had recently fallen in love with Google's Material Design specifications (and still love it, to be honest) so we used their Materialize web framework to make a static webpage that the values could be inserted into using their web framework. 
+So we decided to write our own software. The weather station connects over ISM radio to the base station (looking back, the fact it could get through two floors of a cinder-block building and into a windowless room is impressive), which was connected to the computer over USB serial. The first attempt involved writing our own serial driver, which didn't work out for reasons I can't recall. Then, we found [the WeeWX Project](https://weewx.com/), which "interacts with your weather station to produce graphs, reports, and HTML pages". WeeWX is such a classic feeling early-2000s FOSS project, hulking codebase and all. Crucially, it included support for our receiver. WeeWX comes with many display skins, however none seemed well suited for our billboard application, so I wrote a custom one. I had recently fallen in love with Google's Material Design specifications (and still love it, to be honest) so we used their Materialize web framework to make a static webpage that the values could be inserted into using their web framework. 
 
 ![MarshwoodWX Running](assets/marshwoodwx/new.jpg)
 _MarshwoodWX Running_
 
-Looking back, it probably could've used a little more visual flare, but how much can a weather station really have? The club continued maintaining it, giving slight updates that mainly consisted of cron jobs and shell scripts to ensure the services would restart correctly on the ancient ThinkPad that was hosting it. Despite an aggressive postering campaign (which I still maintain I didn't approve), no one at school really got why there was a TV with the tempurature in the hallway, which the club liked. Hopefully someone followed Noble's maintaince instructions.
+Looking back, it probably could've used a little more visual flare, but how much can a weather station really have? The club continued maintaining it, giving slight updates that mainly consisted of cron jobs and shell scripts to ensure the services would restart correctly on the ancient ThinkPad that was hosting it. Despite an aggressive postering campaign (which I still maintain I didn't approve), no one at school really got why there was a TV with the temperature in the hallway, which the club liked. Hopefully someone followed Noble's maintenance instructions.
 
 ![MHS Science Club, circa 2019](assets/marshwoodwx/yearbook.jpg)
 _MHS Science Club, circa 2019_
