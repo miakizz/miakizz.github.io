@@ -67,7 +67,7 @@ Check this one out if you like: MacPaint, motorcycle maintenance, and A E S T H 
 
 ## Bit International
 
-| [Full Scan](http://www.mg-lj.si/en/web-content/2295/bit-international/) | [WorldCat](https://search.worldcat.org/en/title/5055738) |
+| [Full Scan](https://www.mg-lj.si/en/web-content/2295/bit-international/) | [WorldCat](https://search.worldcat.org/en/title/5055738) |
 
 This one is a little tough to explain, so I will outsource to Wikipedia: "Bit International is a multilingual journal for visual research and media theory that was published by the Gallery of Contemporary Art in Zagreb from 1968 until 1972 as part of the so-called New Tendencies (1961–1973)." [This index](https://www.ccindex.info/iw/bit-international/) and [this museum blurb](https://www.avantgarde-museum.com/en/museum/projects/standstill/artists/Bit-International~pe4355/) offers some great information which I won't try to summarize, but _I_ was struck by the fact that it is relatively accessible theory relating to computers, art, and information flow from a time in which that field was incredibly nascent. Such high concept computer usage is relatively rare from Eastern Europe in that time, and its semi-modernist aesthetics are incredibly striking. Unfortunately, many of the the articles are in Croatian, and French, and the physical copies have some interesting semi-transparent printing that aren't present in the scans, but I was shocked that they were online at all.
 
@@ -125,6 +125,6 @@ I read this when I was in middle school, and haven't really come back to it sinc
 
 ## Cuckoo's Egg – Cliff Stoll
 
-| [Archive.org](https://archive.org/details/cuckoosegg0000unse/mode/2up) | [PDF](http://www.bayrampasaenerji.com/pdf__6_1.pdf) | [WorldCat](https://search.worldcat.org/title/61690806) |
+| [Archive.org](https://archive.org/details/cuckoosegg0000unse/mode/2up) | [PDF](https://www.bayrampasaenerji.com/pdf__6_1.pdf) | [WorldCat](https://search.worldcat.org/title/61690806) |
 
 This is another mass market title I'm putting on here less because I think you _have_ to read it, but more because it seems like everyone either has read this book, or knows the story. It's a story of some of the first computer espionage that ever spilled into the civilian world, and made quite the impact when first released. Stoll than released another book which was...less well received. This is another one I read in middle school and never came back to, but I remembering it being a pretty engaging story, so let me know if it holds up!
