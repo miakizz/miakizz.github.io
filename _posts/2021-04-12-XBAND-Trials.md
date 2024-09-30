@@ -1,10 +1,12 @@
 ---
 title: XBAND Trials
 date: 2021-04-12 12:00:00 -0500
-categories: [Portfolio]
+categories:
+  - Portfolio
 image:
   path: assets/xband/thumb.jpg
   alt: XBAND running
+preview: assets/xband/thumb.jpg
 ---
 
 The XBAND was a third-party modem produced by Catapult Entertainment for the Super Nintendo and Sega Genesis in the mid-90s. It enabled multi-player support over phone lines by being placed in between the game cartridge and console. The service has been shut down for many years, but has recently been revived by hobbyists. I worked with a group trying to improve service quality. To understand what we did, you need to know a bit about how the service worked.
