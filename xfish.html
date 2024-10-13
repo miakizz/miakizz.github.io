@@ -1,0 +1,26 @@
+<html>
+<script>
+function fish(addr){
+var d = new Date(); // for now
+var hour = d.getHours();
+var min = d.getMinutes();
+if((hour == 11 || hour == 23) && min == 11){
+    timeQuery = "&time=good"
+} else{
+    timeQuery = "&time=bad"
+}
+document.location.href = 'https://bdu7bgf5sfpmy2unsnwhbav5we0woquo.lambda-url.us-east-1.on.aws/?address=' + addr + timeQuery;
+}
+</script>
+<h1>Welcome to X11:11 make a fish!</h1>
+To access this service, you will need an X11 server on your computer. This can be accomplished with any non-Wayland Linux machine, MacOS with "XQuartz" running, or Windows (somehow I'm sure). 
+
+<ol>
+<li>Enable X11 to accept TCP connections. On MacOS, that's accomplished by running "defaults write org.xquartz.X11 nolisten_tcp -boolean false" before starting XQuartz. Linux seems a little harder, <a href="https://askubuntu.com/a/1516260"> here might be a decent place to start</a></li>
+<li>Make sure port 6000 on your machine is accessible to the internet, likely through port forwarding on your router. Ask someone who's setup a Minecraft server for help.</li>
+<li>Run "xhost +" in an xterm. WARNING: this allows unauthenticated connections to your computer from the internet (though only display calls) and should NOT be left on. I tried something slightly more secure but couldn't get it to work :(</li>
+<li>Enter your public IP address (available at <a href="https://ifconfig.me">sites like this</a>), and press Fish!</li>
+</ol>
+<input name="address" type="text" />
+<input name="buttonExecute" onclick="fish(document.getElementsByName('address')[0].value)" type="button" value="Fish!" />
+</html>
