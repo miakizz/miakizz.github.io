@@ -23,4 +23,14 @@ To access this service, you will need an X11 server on your computer. This can b
 </ol>
 <input name="address" type="text" />
 <input name="buttonExecute" onclick="fish(document.getElementsByName('address')[0].value)" type="button" value="Fish!" />
+<br>
+<br>
+If you're on Wayland, or can't get X11 listening, xnest may help. Alternate instructions:
+<ol>
+    <li>Run "xnest :1 -listen tcp"</li>
+    <li>Run "DISPLAY=:1 xterm"</li>
+    <li>In the terminal that just opened, run "xhost +"</li>
+    <li>Make sure port 6001 is forwarded to your machine</li>
+    <li>Type your public IP, followed by ":1" into the fish box above.</li>
+</ol>
 </html>
