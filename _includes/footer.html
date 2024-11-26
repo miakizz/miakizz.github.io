@@ -32,15 +32,6 @@
 <a href=https://eightyeightthirty.one>
   <img src="/assets/badges/eightyeightthirtyone.png" alt="88x31" /></a>
 <p style="margin-left: auto;">
-  {{ '©' }}
-  <time>{{ 'now' | date: '%Y' }}</time>
-  <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
-  {% if site.data.locales[include.lang].copyright.brief %}
-  <span data-bs-toggle="tooltip" data-bs-placement="top"
-    title="{{ site.data.locales[include.lang].copyright.verbose }}">
-    {{- site.data.locales[include.lang].copyright.brief -}}
-  </span>
-  {% endif %}
 </p>
 
 <p>

@@ -1,4 +1,16 @@
 #  The contact options.
+
+- type: github
+  icon: "fab fa-github"
+
+- type: mastodon
+  icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
+  url:  'https://tacobelllabs.net/@nkizz'                  # Fill with your Mastodon account page, rel="me" will be applied for verification
+
+- type: bluesky
+  icon: 'fa-brands fa-bluesky'
+  url: 'https://bsky.app/profile/miakizz.quest'                   # Fill with your Bluesky profile link
+
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
@@ -8,15 +20,10 @@
   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
-- type: github
-  icon: "fab fa-github"
-
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-- type: mastodon
-  icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-  url:  'https://tacobelllabs.net/@nkizz'                  # Fill with your Mastodon account page, rel="me" will be applied for verification
-
+# - type: mastodon
+#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
+#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
+#
 # - type: linkedin
 #   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Linkedin homepage
