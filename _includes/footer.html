@@ -2,37 +2,36 @@
 <br>
 <footer
   aria-label="Site Info"
-  class="
-    d-flex flex-column text-muted
-    flex-lg-row align-items-lg-right pb-lg-3 flex-wrap
-  "
-  style="gap: 5px;align-items: center;padding-top: 7px;"
+  class="text-muted"
+  style="padding: 12px 0;"
 >
 
-<a href=https://miakizz.quest>
+<div class="d-flex flex-row text-muted justify-content-center justify-content-lg-start flex-wrap" style="gap: 5px; min-width: 0; margin: 0 auto;">
+<a href=https://miakizz.quest style="border: none;">
   <img src="/assets/badges/miakizz.png" alt="Mia"/></a>
-<a href=https://avasilver.dev>
+<a href=https://avasilver.dev style="border: none;">
   <img src="/assets/badges/ava.png" alt="Ava" /></a>
-<a href=https://breq.dev>
+<a href=https://breq.dev style="border: none;">
   <img src="/assets/badges/breq.webp" alt="Brooke" /></a>
-<a href=https://philo.gay>
+<a href=https://philo.gay style="border: none;">
   <img src="/assets/badges/philo.png" alt="Philo" /></a>
-<a href=https://tris.fyi>
+<a href=https://tris.fyi style="border: none;">
   <img src="/assets/badges/tris.png" alt="Tris" /></a>
-<a href=https://www.google.com/search?tbm=isch&q=big+fluffy+husky+dog>
+<a href=https://www.google.com/search?tbm=isch&q=big+fluffy+husky+dog style="border: none;">
   <img src="/assets/badges/max.png" alt="Maxine" /></a>
-<a href=https://query.44203.online>
+<a href=https://query.44203.online style="border: none;">
   <img src="/assets/badges/∆-44203.png" alt="query.44203.online — Δ-44203" /></a>
-<a href=https://adryd.com>
+<a href=https://adryd.com style="border: none;">
   <img src="/assets/badges/adryd.png" alt="Adryd/Ari" /></a>
-<a href=https://pixilic.com/>
+<a href=https://pixilic.com/ style="border: none;">
   <img src="/assets/badges/hunter.png" alt="Hunter" /></a>
-<a href=https://juliaviolet.dev/>
+<a href=https://juliaviolet.dev/ style="border: none;">
   <img src="/assets/badges/julia.png" alt="Julia" /></a>
-<a href=https://eightyeightthirty.one>
+<a href=https://eightyeightthirty.one style="border: none;">
   <img src="/assets/badges/eightyeightthirtyone.png" alt="88x31" /></a>
-<p style="margin-left: auto;">
-</p>
+</div>
+
+<br />
 
 <p>
   {%- capture _platform -%}
@@ -46,6 +45,6 @@
   {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
 </p>
 
-  
+
 </footer>
 <br>
