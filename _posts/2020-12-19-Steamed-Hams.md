@@ -41,7 +41,7 @@ _Terminal running each netcat_
 The playback went well, and I recorded it on my Sony a6300 with room audio. Despite being the dead of winter, at night, in Maine, my room was well over 80 degrees. I tried to open a window, but the plastic creaking of the CRTs dissuaded me from doing so.
 {% include embed/youtube.html id='0x6OGMh4i98' %}
 
-My other Steamed Hams project involved a board I layed out from this schematic that converts a composite video signal into an X/Y/Intensity map to display on an analog oscilloscope. My one clever "trick" was using a triple composite video connector instead of 3 BNC connectors, since RCA cables are way cheaper, and obviously work at video frequencies. The ladybugs in the video were a complete accident, and just a result of living in a poorly isolated house during the winter in Maine.
+My other Steamed Hams project involved a board I laid out from [this schematic](https://www.qsl.net/w2aew/W2AEW_NTSC_2_Scope_2.pdf) that converts a composite video signal into an X/Y/Intensity map to display on an analog oscilloscope. My one clever "trick" was using a triple composite video connector instead of 3 BNC connectors, since RCA cables are way cheaper, and obviously work at video frequencies. The ladybugs in the video were a complete accident, and just a result of living in a poorly isolated house during the winter in Maine.
 
 ![Composite to X/Y/Intensity converter](assets/hams/compconv.jpg){: w="350"}
 _Composite to X/Y/Intensity converter_
