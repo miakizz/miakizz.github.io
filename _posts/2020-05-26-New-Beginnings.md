@@ -1,7 +1,7 @@
 ---
 title: New Beginnings
 date: 2020-05-26 12:00:00 -0500
-categories: [Portfolio]
+categories: [Projects]
 image:
   path: assets/newbeginning.jpg
   alt: Entry Cart

@@ -1,7 +1,7 @@
 ---
 title: Cellular Rotary Phone
 date: 2017-02-12 12:00:00 -0500
-categories: [Portfolio]
+categories: [Projects]
 image:
   path: assets/phone.png
   alt: Phone Opened Up

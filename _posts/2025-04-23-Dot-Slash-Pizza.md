@@ -1,7 +1,9 @@
 ---
 title: ./pizza
 date: 2025-04-23T00:32:29.722Z
-categories: []
+categories: 
+    - Projects
+    - Articles
 ---
 
 There’s a very specific feeling I get when in a classroom at night. I usually only end up there for some kind of special occasion: the last math team practice of the season, a guest lecturer in college, or a presentation night for finals. Even if there are no windows, the fluorescent lights seem a little brighter, the room a little warmer, focus a little easier. I’d like to imagine that Donald Sherman was feeling somewhat similarly as he sat in front of a green phosphor CRT terminal and a telephone handset perched on top of a wooden box. He was surrounded by a group of at least a dozen people who had filed into the Michigan State University AI Lab on the night of December 4th, 1974 to watch Sherman order a pizza.

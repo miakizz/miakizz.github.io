@@ -1,7 +1,7 @@
 ---
 title: Misadventures in Scanning
 date: 2024-09-25T00:32:29.722Z
-categories: []
+categories: [Projects]
 image:
   path: assets/lib_preview.png
   alt: Computer Lib Snippet

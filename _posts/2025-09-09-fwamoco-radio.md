@@ -1,7 +1,7 @@
 ---
 title: 'How to Get a Ham Radio License Plate in Massachusetts'
 date: 2025-09-09T00:32:29.722Z
-categories: []
+categories: [Articles]
 image:
   path: assets/woorm.jpg
   alt: A red Hyundai Elantra with a “W0ORM” ham radio vanity plate parked next to a river, with a bridge in the background

@@ -1,7 +1,7 @@
 ---
 title: Steamed Hams
 date: 2020-12-19 12:00:00 -0500
-categories: [Portfolio]
+categories: [Projects]
 image:
   path: assets/hams/thumb.jpg
   alt: Steamed Hams still

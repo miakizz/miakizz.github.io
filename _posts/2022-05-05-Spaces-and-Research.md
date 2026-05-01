@@ -1,7 +1,7 @@
 ---
 title: Spaces and Research
 date: 2022-05-05 12:00:00 -0500
-categories: [Portfolio]
+categories: [Projects]
 image:
   path: assets/atlas/thumb.webp
   alt: Atlas Cover Page

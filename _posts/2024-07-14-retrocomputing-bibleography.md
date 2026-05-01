@@ -1,7 +1,9 @@
 ---
 title: Computing History Bibliography
 date: 2024-09-29T13:14:07-0400 
-categories: []
+categories:
+    - Projects
+    - Articles
 type: default
 ---
 

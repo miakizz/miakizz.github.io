@@ -1,7 +1,7 @@
 ---
 title: Class Act Android App
 date: 2018-05-12 12:00:00 -0500
-categories: [Portfolio]
+categories: [Projects]
 image:
   path: assets/classact/thumb.webp
   alt: Class Act Logo

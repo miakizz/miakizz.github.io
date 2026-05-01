@@ -1,7 +1,7 @@
 ---
 title: Snooping on Voice Modems
 date: 2024-11-14T00:32:29.722Z
-categories: []
+categories: [Projects]
 image:
     path: "assets/voicemodem/preview.jpg"
     alt: "A soviet style advertising that reads JOIN US ROBOTICS (https://jacfodor.com/U-S-Robotics)"

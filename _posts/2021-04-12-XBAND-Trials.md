@@ -1,8 +1,7 @@
 ---
 title: XBAND Trials
 date: 2021-04-12 12:00:00 -0500
-categories:
-  - Portfolio
+categories: [Projects]
 image:
   path: assets/xband/thumb.jpg
   alt: XBAND running

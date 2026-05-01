@@ -1,7 +1,7 @@
 ---
 title: "!!Con"
 date: 2021-06-24 12:00:00 -0500
-categories: [Portfolio]
+categories: [Projects]
 ---
 !!Con was a series of conferences held virtually and in New York City. It was focused on lightning talks about novel and fun concepts in computing. I had attended virtually in 2020 and really enjoyed the talks and thought enough of my projects were both novel and fun enough to be presented. So I applied, and to my delight, got accepted to speak. I then of course, actually had to put together my presentation. 
 

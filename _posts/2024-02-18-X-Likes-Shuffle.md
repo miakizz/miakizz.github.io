@@ -1,7 +1,7 @@
 ---
 title: "X Likes Shuffle"
 date: 2024-02-18 12:00:00 -0500
-categories: [code-snippets]
+categories: ["Code Snippets"]
 ---
 This entire blog refresh was prompted by me wanting to post like, 5 lines of code onto social media and not being able to. So, here is that code.
 
