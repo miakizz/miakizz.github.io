@@ -20,6 +20,7 @@ backend:
     deleteMedia: Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
     openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
 
+publish_mode: editorial_workflow
 # Enable PKCE fields (optional, recommended)
 auth:
   email_claim: email
@@ -47,6 +48,12 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: Categories, name: categories, widget: 'select', options: ["Articles", "Projects", "Code Snippets"], multiple: true }
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+        media_library:
+          config:
+            multiple: true
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'pages'
     label: 'Pages'
